@@ -33,7 +33,7 @@ public class CalcTest {
             System.out.println(a + operator + b + "=" + result);
         } catch (UnknownOperatorException | ArithmeticException e){
             System.err.println(e.getMessage());
-            System.err.println("Nie udało się obliczyć wyniku wyrażenia" + a + + ""+ operator + b);
+            System.err.println("Nie udało się obliczyć wyniku wyrażenia" + a + ""+ operator + b);
         }
     }
 }

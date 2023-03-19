@@ -12,10 +12,8 @@ public class Calculator {
             case MINUS -> result = a-b;
             case MULTIPLY -> result = a * b;
             case DIVIDE -> {
-                if (operator == null) {
+                if (b == 0) {
                     throw new ArithmeticException("nie można dzielić przez 0");
-
-
                 }
                 result = a/b;
             }
